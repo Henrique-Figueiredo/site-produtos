@@ -1,0 +1,99 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f8f8f8;
+  padding: 20px;
+  color: #333;
+}
+
+header {
+  background: #2980b9;
+  padding: 15px 20px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+header h1 {
+  font-size: 1.8em;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-left: 15px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.produtos {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.produto {
+  background: white;
+  padding: 15px;
+  border-radius: 8px;
+  width: calc(33% - 13.3px);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.produto img {
+  max-width: 100%;
+  border-radius: 6px;
+}
+
+.produto h2 {
+  margin: 10px 0;
+  font-size: 1.2em;
+}
+
+.produto p {
+  font-size: 0.9em;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.preco {
+  font-weight: bold;
+  font-size: 1.1em;
+  color: #27ae60;
+  display: block;
+  margin-bottom: 10px;
+}
+
+button {
+  background: #2980b9;
+  border: none;
+  padding: 10px 15px;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #1c5980;
+}
+
+footer {
+  margin-top: 40px;
+  text-align: center;
+  color: #999;
+  font-size: 0.9em;
+}
